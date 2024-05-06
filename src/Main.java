@@ -6,6 +6,9 @@ public class Main {
         NumerosPositivos numerosPositivos = new NumerosPositivos();
         RemoveNumerosImpares removeNumerosImpares = new RemoveNumerosImpares();
         MediaNumerosMaioresQueCinco mediaNumerosMaioresQueCinco = new MediaNumerosMaioresQueCinco();
+        NumeroMaiorQueDez numeroMaiorQueDez = new NumeroMaiorQueDez();
+        SegundoMaiorValor segundoMaiorValor = new SegundoMaiorValor();
+        SomaDigitos somaDigitos = new SomaDigitos();
 
         // System.out.println(ordemNumerica.getNumerosOrdenados());
 
@@ -15,7 +18,14 @@ public class Main {
 
         // System.out.println(removeNumerosImpares.getNumerosImpar());
 
-        System.out.println(mediaNumerosMaioresQueCinco.getMediaNumeros());
+        // System.out.println(mediaNumerosMaioresQueCinco.getMediaNumeros());
+
+        // System.out.println(numeroMaiorQueDez.getNumerosMaiorQueDez());
+
+        // System.out.println(segundoMaiorValor.getSegundoMaiorValor());
+
+        System.out.println(somaDigitos.getSomaDigitos());
+
 
     }
 }
