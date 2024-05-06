@@ -16,6 +16,7 @@ public class Main {
         IntervaloDeNumeros intervaloDeNumeros = new IntervaloDeNumeros();
         MaiorNumeroPrimo maiorNumeroPrimo = new MaiorNumeroPrimo();
         NumeroNegativo numeroNegativo = new NumeroNegativo();
+        ParImpar parImpar = new ParImpar();
 
         // System.out.println(ordemNumerica.getNumerosOrdenados());
 
@@ -43,7 +44,10 @@ public class Main {
 
         // System.out.println(intervaloDeNumeros.getIntervalo());
 
-        System.out.println(numeroNegativo.getNumerosNegativos());
+        // System.out.println(numeroNegativo.getNumerosNegativos());
+
+        System.out.println(parImpar.getParImpar());
+
 
 
 
