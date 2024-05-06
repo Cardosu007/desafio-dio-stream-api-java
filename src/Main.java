@@ -18,6 +18,8 @@ public class Main {
         NumeroNegativo numeroNegativo = new NumeroNegativo();
         ParImpar parImpar = new ParImpar();
         FiltroNumerosPrimos filtroNumerosPrimos = new FiltroNumerosPrimos();
+        NumerosIguais numerosIguais = new NumerosIguais();
+
 
         // System.out.println(ordemNumerica.getNumerosOrdenados());
 
@@ -49,8 +51,9 @@ public class Main {
 
         // System.out.println(parImpar.getParImpar());
 
-        filtroNumerosPrimos.filtrarNumerosPrimos();
+        // filtroNumerosPrimos.filtrarNumerosPrimos();
 
+        numerosIguais.verificarNumerosIguais();
 
 
 
