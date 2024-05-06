@@ -17,6 +17,7 @@ public class Main {
         MaiorNumeroPrimo maiorNumeroPrimo = new MaiorNumeroPrimo();
         NumeroNegativo numeroNegativo = new NumeroNegativo();
         ParImpar parImpar = new ParImpar();
+        FiltroNumerosPrimos filtroNumerosPrimos = new FiltroNumerosPrimos();
 
         // System.out.println(ordemNumerica.getNumerosOrdenados());
 
@@ -46,7 +47,9 @@ public class Main {
 
         // System.out.println(numeroNegativo.getNumerosNegativos());
 
-        System.out.println(parImpar.getParImpar());
+        // System.out.println(parImpar.getParImpar());
+
+        filtroNumerosPrimos.filtrarNumerosPrimos();
 
 
 
