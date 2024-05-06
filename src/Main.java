@@ -12,6 +12,10 @@ public class Main {
         NumerosDistintos numerosDistintos = new NumerosDistintos();
         AgrupeValores agrupeValores = new AgrupeValores();
         SomaQuadrados somaQuadrados = new SomaQuadrados();
+        Produtos produtos = new Produtos();
+        IntervaloDeNumeros intervaloDeNumeros = new IntervaloDeNumeros();
+        MaiorNumeroPrimo maiorNumeroPrimo = new MaiorNumeroPrimo();
+        NumeroNegativo numeroNegativo = new NumeroNegativo();
 
         // System.out.println(ordemNumerica.getNumerosOrdenados());
 
@@ -33,7 +37,16 @@ public class Main {
 
         // System.out.println(agrupeValores.getAgruparValores());
 
-        System.out.println(somaQuadrados.getNumerosQuadrados());
+        // System.out.println(somaQuadrados.getNumerosQuadrados());
+
+        // System.out.println(produtos.getProdutos());
+
+        // System.out.println(intervaloDeNumeros.getIntervalo());
+
+        System.out.println(numeroNegativo.getNumerosNegativos());
+
+
+
 
 
 
