@@ -9,6 +9,7 @@ public class Main {
         NumeroMaiorQueDez numeroMaiorQueDez = new NumeroMaiorQueDez();
         SegundoMaiorValor segundoMaiorValor = new SegundoMaiorValor();
         SomaDigitos somaDigitos = new SomaDigitos();
+        NumerosDistintos numerosDistintos = new NumerosDistintos();
 
         // System.out.println(ordemNumerica.getNumerosOrdenados());
 
@@ -24,7 +25,10 @@ public class Main {
 
         // System.out.println(segundoMaiorValor.getSegundoMaiorValor());
 
-        System.out.println(somaDigitos.getSomaDigitos());
+        // System.out.println(somaDigitos.getSomaDigitos());
+
+        numerosDistintos.getNumerosDistintos();
+
 
 
     }
