@@ -10,6 +10,8 @@ public class Main {
         SegundoMaiorValor segundoMaiorValor = new SegundoMaiorValor();
         SomaDigitos somaDigitos = new SomaDigitos();
         NumerosDistintos numerosDistintos = new NumerosDistintos();
+        AgrupeValores agrupeValores = new AgrupeValores();
+        SomaQuadrados somaQuadrados = new SomaQuadrados();
 
         // System.out.println(ordemNumerica.getNumerosOrdenados());
 
@@ -27,7 +29,11 @@ public class Main {
 
         // System.out.println(somaDigitos.getSomaDigitos());
 
-        numerosDistintos.getNumerosDistintos();
+        // numerosDistintos.getNumerosDistintos();
+
+        // System.out.println(agrupeValores.getAgruparValores());
+
+        System.out.println(somaQuadrados.getNumerosQuadrados());
 
 
 
